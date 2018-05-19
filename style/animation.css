@@ -1,0 +1,28 @@
+.parent{
+	width: 100%;
+	height: 200px;
+	box-shadow: 0px 12px 18px 4px rgba(3,3,3,0.05);
+}
+.box{
+	color: red;
+	width: 200px;
+	height: 200px;
+	background: #dc6338;
+	margin:100px auto 0px auto;
+	border-radius: 50%;
+	box-shadow: 1px 7px 4px -1px rgba(0,0,0,0.04);
+	animation: abc 2s 1; 
+}
+/*@keyframes bonxe{
+0%{
+	transform: translateY(-200px);
+}*/
+@keyframes abc{
+	0%{
+		transform:translateY(-200px);
+	}
+	60%{transform: translate(0px);}
+	80%{transform: translate(-60px); opacity: 0;}
+	100%{transform: translate(0px); background: green;}
+}
+}
